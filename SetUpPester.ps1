@@ -8,5 +8,8 @@ function Get-UserModulePath {
     }
         $Path
 }
- 
-Copy-Item -Path Pester -Destination Get-UserModulePath -Recurse
+$path = Get-UserModulePath
+Write-Output $path 
+Copy-Item -Path Pester -Destination $path -Recurse
+Import-Module Pester
+Get-Module -Name Pester | Select -ExpandProperty ExportedCommands | Write-Output
