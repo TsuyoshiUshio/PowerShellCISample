@@ -9,3 +9,10 @@ PowerShell VSTS CI sample with Pester
 
 
 ## Poershell CI Sample
+
+### 1. Value Stream Mapping 
+### 2. Blue Green Deployment without Noizy Neighbour problem
+### 3. Automated Retain indefinitely flag 
+### 4. iOS deployment pipeline automation
+### 6. Kanban customization with Test & Feedback
+
